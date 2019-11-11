@@ -1,0 +1,13 @@
+{
+  "name": "krishna-start",
+  "version": "1.0.0",
+  "description": "pm2 starter",
+  "bin": {
+    "krishna-start": "bin/krishna-start.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "zidian257"
+}
