@@ -15,5 +15,7 @@
 
 * [x] npm run start 监听 index.js
 
+* [ ] editorconfig
+
 * [ ] npm run add:__gg  加入 gg 文件并且监听
 
