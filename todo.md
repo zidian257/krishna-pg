@@ -9,11 +9,11 @@
 
 * [x] npmrc yarnrc
 
-* [ ] ESLint: .eslintrc 配置
+* [x] ESLint: .eslintrc 配置
 
-* [ ] prettier: .prettierrc 配置
+* [x] prettier: .prettierrc 配置
 
-* [ ] pm2 yml
+* [x] npm run start 监听 index.js
 
 * [ ] npm run add:__gg  加入 gg 文件并且监听
 
