@@ -2,10 +2,13 @@
 
 ### 命令行功能
 
-* [ ] krishna-pg dir-to-app：按照默认配置 搬运 template 到 dir-to-app 目录
+* [x] krishna-pg dir-to-app：按照默认配置 搬运 template 到 dir-to-app 目录
 
 
 ### 配置项
+
+* [x] npmrc yarnrc
+
 * [ ] ESLint: .eslintrc 配置
 
 * [ ] prettier: .prettierrc 配置

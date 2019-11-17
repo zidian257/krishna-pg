@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "pm2 starter",
   "bin": {
-    "krishna-start": "bin/krishna-start.js"
+    "krishna-pg": "bin/krishna-pg.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "zidian257"
+  "author": "zidian257",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "inquirer": "^7.0.0"
+  }
 }
