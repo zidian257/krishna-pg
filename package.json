@@ -1,6 +1,6 @@
 {
   "name": "krishna-pg",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "pm2 starter, JavaScript playground",
   "bin": {
     "krishna-pg": "bin/index.js"

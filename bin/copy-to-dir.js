@@ -11,13 +11,11 @@ const copyToAsync = async (
   const exists = await pathExists(target);
   console.log("exists:", exists);
 
-  const filter = path => path.indexOf("template/node_modules") === -1;
-
   if (exists) {
     throw new Error("Path exists! Please change another dir.");
   }
   await ensureDir(target);
-  const res = await copy(source, target, { filter });
+  const res = await copy(source, target);
 };
 
 module.exports = copyToAsync;
