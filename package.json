@@ -1,7 +1,7 @@
 {
   "name": "krishna-pg",
-  "version": "1.0.0",
-  "description": "pm2 starter",
+  "version": "0.0.1",
+  "description": "pm2 starter, JavaScript playground",
   "bin": {
     "krishna-pg": "bin/krishna-pg.js"
   },
@@ -9,6 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
+  "license": "MIT",
   "author": "zidian257",
   "dependencies": {
     "fs-extra": "^8.1.0",

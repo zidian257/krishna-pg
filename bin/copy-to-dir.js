@@ -2,7 +2,9 @@ const { copy, pathExists, ensureDir } = require("fs-extra");
 const path = require("path");
 
 const copyToAsync = async dir => {
+  // bin 源码所在的路径 用 __dirname 表示
   const source = path.resolve(__dirname, "../template");
+  // 当前调用的地址
   const target = path.resolve(`./${dir}`);
   console.log("source:", source);
   console.log("target:", target);

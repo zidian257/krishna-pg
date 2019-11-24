@@ -1,10 +1,10 @@
 apps:
-  - script: ./playground/index.js
+  - script: ./src/index.js
     name: "playground"
     instances: 1
     exec_mode: cluster
     watch:
-      - playground
+      - src
     env:
   # - script : ./worker.js
   #   name   : 'worker'
