@@ -2,6 +2,7 @@
   "name": "krishna-pg",
   "version": "0.0.12",
   "description": "pm2 starter, JavaScript playground",
+  "repository": "https://github.com/zidian257/krishna-pg",
   "bin": {
     "krishna-pg": "bin/index.js"
   },
