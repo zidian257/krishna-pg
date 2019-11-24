@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start playground.yaml --no-daemon && pm2 logs",
+    "study": "pm2 start playground.yaml --no-daemon && pm2 logs",
     "new": "krishna-pg new"
   },
   "keywords": [],
