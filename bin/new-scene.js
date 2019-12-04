@@ -3,13 +3,13 @@ const path = require("path");
 const { outputFile } = require("fs-extra");
 const copyToAsync = require("./copy-to-dir");
 
-const importStr = dir => `require("./${dir}");`;
+const importStr = dir =>
+  `require("./${dir}");/n console.log('------------------------------------------------------------')`;
 
 const newScene = ({ name }) => {
   const target = path.resolve("./src/" + name);
   const indexPath = path.resolve("./src/index.js");
   const source = path.resolve(__dirname, "../scene-tpl");
-
 
   copyToAsync(target, source)
     .then(() => outputFile(indexPath, importStr(name)))
