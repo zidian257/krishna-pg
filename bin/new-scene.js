@@ -4,7 +4,8 @@ const { outputFile } = require("fs-extra");
 const copyToAsync = require("./copy-to-dir");
 
 const importStr = dir =>
-  `require("./${dir}");/n console.log('------------------------------------------------------------')`;
+  `require("./${dir}"); 
+  console.log('------------------------------------------------------------')`;
 
 const newScene = ({ name }) => {
   const target = path.resolve("./src/" + name);
